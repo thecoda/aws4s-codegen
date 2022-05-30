@@ -1,0 +1,14 @@
+package {{pkg}}
+
+/*
+ * This is an auto-generated file from aws4s-codegen and should not be directly edited.
+ * Last updated: {{now_str}}
+ */
+
+{{#doccomment}}{{doc}}{{/doccomment}}
+class {{name}} {
+
+{{#methods}}
+  {{> service_method }}
+{{/methods}}
+}
